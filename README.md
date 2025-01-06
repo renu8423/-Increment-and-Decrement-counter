@@ -1,8 +1,13 @@
-# React + Vite
+ # Code Description
+This application is built using React and consists of a simple Counter component with the following key functionality:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* useState is used to manage the count state, which holds the current counter value.
+* The addvalue function increments the count by 1, ensuring it doesn't exceed the maximum limit of 20.
+* The removevalue function decrements the count by 1, ensuring it doesn't go below the minimum limit of 0.
+* The buttons trigger the addvalue and removevalue functions to update the counter.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Components:
+Counter Component: Displays the counter value and provides buttons for incrementing and decrementing the counter.
+Dependencies:
+ * React (useState hook)
+ * CSS for styling
